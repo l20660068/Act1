@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Mensaje</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        p {
+            font-size: 32px;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        // Este código se ejecutará cuando la página termine de cargarse
+        window.onload = function() {
+            document.getElementById("soyelid").innerText = "¡No me gusta la programación!";
+        };
+    </script>
+</head>
+<body>
+    <!-- Etiqueta de tipo texto con el id "soyelid" -->
+    <p id="soyelid"></p>
+</body>
+</html>
